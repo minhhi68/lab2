@@ -1,0 +1,168 @@
+.navigation-ul{
+  display:flex;
+  list-style-type: none;
+  background-color: black;
+  min-height: 45px;
+}
+
+.navigation-ul-2{
+  display: flex;
+  text-align: center;
+  width: 100%;
+  
+  /* list-style-type: none; */
+  background-color: black;
+  min-height: 30px;
+ 
+}
+
+.active{
+  background-color: mediumseagreen;
+}
+
+/* li{
+  display: inline-flex;
+  text-align: center;
+  width: 100%;
+} */
+
+a{
+  display: flex;
+  text-decoration: wavy;
+  padding: 0 15px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  
+}
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card{
+  text-align: center;
+  background-color: #F1F1F1;
+}
+
+.card2{
+  text-align: right;
+}
+
+.card img{
+  width: 100%;
+  border-radius: 5px;
+  
+ 
+  /* border: 5px solid #b1154a; */
+  size: 5%;
+  /* border-color: rebeccapurple; */
+}
+
+.column{
+  padding: 5px 85px;
+  
+}
+
+button{
+  width: 100%;
+  text-align: center;
+  background-color: greenyellow;
+  color: black;
+  text-decoration: solid;
+
+}
+
+.card2{
+  width: 100%;
+  text-align: center;
+  text-decoration: double;
+  padding: 0px;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 5px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  size: 30px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+
+
+
+.popup h2 {
+  margin-top: 0;
+  color: brown;
+  display: block;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  width: 50%;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: static;
+  top: 100px;
+  right: 5x;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: royalblue;
+}
+.popup .close:hover {color: #06D85F;}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+
+
+
+img { 
+  opacity: 0.7; 
+} 
+
+img:hover { 
+  opacity: 1; 
+}
+
+
