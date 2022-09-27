@@ -76,6 +76,20 @@ button{
 
 }
 
+h5{
+  background-color: #D9D7F1;
+  border: none;
+  color: blueviolet;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
 .card2{
   width: 100%;
   text-align: center;
