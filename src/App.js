@@ -20,7 +20,7 @@ function App(){
     <GlobalStyles />
       <StyledApp>
         
-           <button onClick={() => themeToggler()}>Change Mode</button>
+           <button onClick={() => themeToggler()}>Click here to change the mode</button>
       </StyledApp>
     <Navigation />
     <Main />
